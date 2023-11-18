@@ -4,7 +4,7 @@ kind: StatefulSet
 metadata:
   name: postgres  # Sets Deployment name
 spec:
-  replicas: 3
+  replicas: 
   selector:
     matchLabels:
       app: postgres
