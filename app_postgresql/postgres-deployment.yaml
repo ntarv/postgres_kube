@@ -28,5 +28,5 @@ spec:
       volumes:
         - name: postgredb
           persistentVolumeClaim:
-            claimName: postgres-pv-volume
+            claimName: postgres-pv-volume1
 
